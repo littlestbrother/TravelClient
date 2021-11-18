@@ -1,0 +1,116 @@
+.greeting {
+  color: blue;
+}
+.jumbotron {
+  background-color: rgb(76, 94, 111);
+  border-radius: 0.5rem;
+  color: lightgray;
+  width: 200%;
+}
+
+.static {
+  position: fixed;
+  z-index: 99;
+  bottom: 0;
+  left: 0;
+  width: 95%;
+  padding: 10px;
+  border-radius: 5px;
+  /* backdrop-filter: blur(800px); */
+  color: lightgray;
+  margin-left: 55px;
+}
+
+.deletePlace {
+  background-color: #dd3444;
+  border: none;
+  color: white;
+  padding: 5px 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.editPlace {
+  background-color: #0c6ffc;
+  border: none;
+  color: white;
+  padding: 5px 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.submit {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 5px 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+input,
+select {
+  color: lightgray;
+  background: transparent;
+  /* border: none; */
+  border-color: #131517;
+  border-style: double;
+  border:none;
+  outline: 0 !important;
+  border-radius: 10px;
+  backdrop-filter: blur(60px);
+  height: 36px;
+  width: 180px;
+  outline: none;
+}
+
+input::placeholder,
+select::placeholder {
+  color: lightgray;
+  background: transparent;
+  border: none;
+  outline: 0 !important;
+  border-radius: 10px;
+  backdrop-filter: blur(6px);
+}
+
+option {
+  margin: 40px;
+  border-color: #131517;
+  background: #131517;
+  color: lightgray;
+  border: 0px;
+  outline: 0px;
+}
+
+input::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+  background-color: #141516;
+  color: lightgray;
+}
+
+/* .jumbotron {
+  background-color: transparent;
+  width: 80%;
+} */

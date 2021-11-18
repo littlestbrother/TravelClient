@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛩</text></svg>"
+    />
+    <title>Location Review</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <br />
+      <h1>🛩 Location Review</h1>
+      <hr />
+
+      <!-- <div class="jumbotron">
+    <h1 class="jumbotron"><marquee scrollamount = "30">'Ello Weary Traveler! ☕</marquee></h1>
+    </div> -->
+
+      <!-- list of places -->
+      <div class="apiPlaces"></div>
+    </div>
+    <!-- footer -->
+    <div class="static">
+      <div class="upperStatic"></div>
+      <!-- select -->
+      <select name="method" id="method">
+        <option value="create">create</option>
+        <option value="edit">edit</option>
+      </select>
+
+      <!-- text boxes -->
+      <input type="text" id="city" placeholder="city" />
+      <input type="text" id="state" placeholder="state" />
+      <input type="text" id="country" placeholder="country" />
+      <input type="date" id="visitDate" placeholder="visitDate" />
+      <input type="number" id="rating" placeholder="rating" />
+      <input type="text" id="review" placeholder="review" />
+      <input type="text" id="userName" placeholder="username" />
+      <button id="submit" class="submit">Submit</button>
+    </div>
+    <br />
+    <br />
+    <br />
+  </body>
+</html>
